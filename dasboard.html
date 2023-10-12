@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discussion Board</title>
+  <link rel="stylesheet" href="C:\Users\navis\community-forum\style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="bg-image">
+        <header>
+            <h1>Discussion Board</h1>
+            <p>A place for the <community name> community to discuss and share ideas.</p>
+        </header>
+        <main>
+            <div id="new-thread">
+                <h2>New Thread</h2>
+                <form action="/new-thread" method="post">
+                    <input type="text" name="title" placeholder="Title">
+                    <textarea name="content" placeholder="Content"></textarea>
+                    <button type="submit" class="button">Create Thread</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 <community name> Community</p>
+        </footer>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
